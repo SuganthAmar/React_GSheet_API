@@ -1,0 +1,75 @@
+html {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,
+      rgb(209, 240, 6) 0%,
+      rgb(219, 144, 239) 0%,
+      rgb(165, 151, 234) 26%,
+      rgb(231, 206, 232, 1) 38%,
+      rgba(241, 108, 108) 100%);
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIXNm2c97SZu8QDjBZ_akNmx3tuFM1aeJNQio3ZrlQg&s);
+  background-size: cover;
+  height: auto;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  display: flex;
+  width: 500px;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  border-radius: 15px;
+  position: relative;
+  left: 20%;
+  top: 5%;
+  height: 40em;
+  box-shadow: rgba(170, 84, 84, 0.56) 0px 22px 70px 4px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 60%;
+  top: 15%;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.title {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(127, 30, 46);
+}
+
+.form-input>input {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.buttons-name {
+  padding: 3px;
+  border-radius: 3px;
+  background-color: #e7cee8;
+}
+
+#sub {
+  margin-top: 10px;
+}
+
+#btn-2,
+#btn-3 {
+  margin-left: 50px;
+}
